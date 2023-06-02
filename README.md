@@ -3,6 +3,7 @@
 A simple statisical analysis on COVID-19 (coronavirus) dataset, derived from https://www.kaggle.com/datasets/sudalairajkumar/novel-corona-virus-2019-dataset, using R programming language.
 
 Tested if AGE played a role in the deaths of coronavirus.
+
 Tested if GENDER played a role in the deaths of coronavirus.
 
 Short snippets of result: 
