@@ -1,12 +1,12 @@
-rm(list=ls()) # removing all variables stored previously
-library(Hmisc) # import Hmisc library
+rm(list=ls()) # Removing all variables stored previously
+library(Hmisc) # Importing Hmisc library
 
 data <- read.csv("C:/Users/yulin/covid19_R/COVID19_line_list_data.csv")
-describe(data) # Hmisc command
+describe(data)
 
-# cleaning up death column
+# Cleaning up death column
 data$death_dummy <- as.integer(data$death != 0)
-# death rate
+# Death rate
 sum(data$death_dummy) / nrow(data)
 
 # AGE ANALYSIS
